@@ -6,14 +6,16 @@ abstract class Animal {
     void sleep() {
         System.out.println("The animal is sleeping");
     }
+
+    public void koibhi() {
+        System.out.println("koibhi");
+    }
 }
 class Dog extends Animal {
     void sound() {
         System.out.println("The dog barks");
     }
-   public void koibhi() {
-        System.out.println("koibhi");
-    }
+
 }
 class Cat extends Animal {
     void sound() {
