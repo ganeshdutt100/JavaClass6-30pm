@@ -3,7 +3,7 @@ class shivang implements Runnable{
     public void run() {
         for(int i = 0; i <= 5; i++){
             System.out.println("I am Thread "+i);
-            System.out.println("I am Shivang");
+//            System.out.println("I am Shivang");
 
             try { Thread.sleep(1000); } // Pause for 1 second
             catch (InterruptedException e) { e.printStackTrace(); }
