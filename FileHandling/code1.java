@@ -26,7 +26,8 @@ public class code1 {
                     "</html>");
 //            obj1.createNewFile();
 //            System.out.println("File created");
-
+      writer.close();
+            System.out.println("File created successfully");
 
 
         }
